@@ -1,21 +1,47 @@
-# Reviewer Checklist (13 Points)
+# Reviewer Checklist (13‑Point Ultra Standard)
 
-A structured checklist aligned with Snorkel/Terminus reviewer expectations.
+This checklist defines the 13 mandatory reviewer alignment points for Ultra task correction.  
+Every EC action must map to one of these items.
 
-## Checklist Items
-1. Deterministic execution
-2. Structural integrity
-3. Clear boundaries
-4. No drift
-5. No collapse
-6. Correct transitions
-7. Stable resets
-8. Clean logs
-9. Clear reasoning
-10. No ambiguity
-11. No undefined states
-12. High‑pressure stability
-13. Full reviewer alignment
+## 1. Verdict Correction
+Ensure the verdict is FIXABLE unless explicitly proven otherwise.
+
+## 2. Rebuild Fail‑to‑Pass
+Reconstruct the fail‑to‑pass list based on instruction requirements.
+
+## 3. Add New Fail‑to‑Pass
+Add missing tests for requirements not covered.
+
+## 4. ArgumentError Coverage
+Ensure invalid inputs trigger ArgumentError where required.
+
+## 5. Populate Pass‑to‑Pass
+Add regression tests for valid behavior.
+
+## 6. Restore .git
+Ensure `.git` directory exists and is correct.
+
+## 7. Restore File Modes
+Executable files: 0755  
+Non‑executables: 0644
+
+## 8. Rewrite Instruction.md
+Fix clarity, determinism, and requirement mapping.
+
+## 9. Remove Leakage
+No benchmark leakage, no oracle leakage, no hidden hints.
+
+## 10. Difficulty Mismatch
+Ensure difficulty fields match task expectations.
+
+## 11. Patch Cleanup
+Remove unrelated changes from patches.
+
+## 12. Network Settings
+Remove network_mode, allowed_hosts, and similar fields.
+
+## 13. Determinism
+Ensure deterministic behavior across all runs.
 
 ## Purpose
-Ensures your execution matches reviewer expectations with zero drift.
+The 13‑point checklist is the EC’s alignment map for reviewer expectations.

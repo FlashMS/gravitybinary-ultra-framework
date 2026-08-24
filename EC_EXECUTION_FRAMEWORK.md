@@ -34,5 +34,4 @@ Ensures your execution matches Snorkel/Terminus expectations:
 - No collapse
 
 ## Purpose
-The EC Execution Framework is the GravityBinary engine.
-It powers all Ultra, Snorkel, and Terminus task operations.
+The EC Execution Framework acts as the deterministic backbone of Ultra task execution.
