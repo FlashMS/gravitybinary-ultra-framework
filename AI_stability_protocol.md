@@ -3,11 +3,11 @@
 This document defines the stability rules, anti‑drift constraints, and execution invariants that govern the Ultra pipeline. It ensures deterministic behavior, structural integrity, and consequence‑aware execution during all GravityBinary operations.
 
 ## Core Principles
-- Zero drift across long execution cycles  
-- Deterministic state transitions  
-- Structural guardrails to prevent scope collapse  
-- Reset logic for restoring cockpit stability  
-- Safety boundaries for high‑pressure evaluation tasks  
+- Zero drift across long execution cycles
+- Deterministic state transitions
+- Structural guardrails to prevent scope collapse
+- Reset logic for restoring cockpit stability
+- Safety boundaries for high‑pressure evaluation tasks
 
 ## Stability Layers
 ### 1. Structural Integrity
@@ -23,5 +23,5 @@ Mechanisms for restoring the cockpit to a known stable state.
 Non‑negotiable rules that must remain true during all Ultra operations.
 
 ## Purpose
-The Stability Protocol acts as the “laws of physics” for the Ultra cockpit.  
+The Stability Protocol acts as the “laws of physics” for the Ultra cockpit.
 It ensures predictable behavior, reviewer alignment, and high‑precision execution.

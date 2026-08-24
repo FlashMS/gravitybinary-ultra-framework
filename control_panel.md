@@ -19,5 +19,5 @@ Ensures alignment with the deterministic workflow.
 Provides consistent logging points for evaluation cycles.
 
 ## Purpose
-The Control Panel is the interface you use during real Ultra runs.  
+The Control Panel is the interface you use during real Ultra runs.
 It ensures clarity, stability, and deterministic behavior.

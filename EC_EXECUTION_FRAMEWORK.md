@@ -4,35 +4,35 @@ The EC Execution Framework defines the deterministic operating system of the Ult
 
 ## V1 — Full Deterministic Workflow
 The complete execution model including:
-- Structural layer  
-- Execution rules  
-- Reviewer alignment logic  
-- State transitions  
-- Task boundaries  
-- Reset conditions  
+- Structural layer
+- Execution rules
+- Reviewer alignment logic
+- State transitions
+- Task boundaries
+- Reset conditions
 
 ## V2 — Nano Cockpit Checklist
 A compressed version of V1 for rapid execution:
-- Minimal steps  
-- High‑pressure alignment  
-- Quick structural checks  
-- Fast reset triggers  
+- Minimal steps
+- High‑pressure alignment
+- Quick structural checks
+- Fast reset triggers
 
 ## Structural Layer
 Defines the architecture of execution:
-- Boundaries  
-- Allowed transitions  
-- Forbidden states  
-- Deterministic flow  
+- Boundaries
+- Allowed transitions
+- Forbidden states
+- Deterministic flow
 
 ## Reviewer Alignment
 Ensures your execution matches Snorkel/Terminus expectations:
-- Clarity  
-- Determinism  
-- Stability  
-- No drift  
-- No collapse  
+- Clarity
+- Determinism
+- Stability
+- No drift
+- No collapse
 
 ## Purpose
-The EC Execution Framework is the GravityBinary engine.  
+The EC Execution Framework is the GravityBinary engine.
 It powers all Ultra, Snorkel, and Terminus task operations.
